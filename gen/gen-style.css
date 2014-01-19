@@ -1,0 +1,18 @@
+#page {
+	width: 78%;
+	position: absolute;
+	left: 0px;
+	display: inline;
+	float: left;
+	
+}
+
+#gen {
+	display: inline;
+	float: right;
+	width: 20%;
+	min-width: 200px;
+	height: 100%;
+
+	background-color: #CDCDCD;
+}

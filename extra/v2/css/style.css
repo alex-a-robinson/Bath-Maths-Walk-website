@@ -1,0 +1,344 @@
+@import url(http://fonts.googleapis.com/css?family=Patrick+Hand|Patrick+Hand+SC|Roboto);
+
+body {
+    margin : 0px;
+	font-family: 'Patrick Hand', cursive;
+}
+
+/* image */
+img {
+	width: 100%;
+}
+
+/* noscript warning message */
+.box.js {
+	margin: 0px;
+	padding: 10px;
+	background-color: #E87600;
+	font-family: arial;
+	font-size: 1em; 
+}
+
+/* link styling*/
+a.nav-link{
+	text-decoration:none;
+	color: #FFFFFF;
+}
+
+a.nav-link:hover{
+	text-decoration:underline;
+}
+
+a.nav-link:active{
+	color: #B40063;
+}
+
+a.button{
+	text-decoration:none;
+	color: #FFFFFF;
+}
+
+a.button:active{
+	color: #FFBAE0;
+}
+
+a#footer-email {
+	text-decoration:none;
+	color: #FFFFFF;
+}
+
+a#footer-email:hover{
+	text-decoration:underline;
+}
+
+a#footer-email:active{
+	color: #B40063;
+}
+
+/* Button */
+
+.button {
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 1.2em;
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	-webkit-border-radius: .3em; 
+	-moz-border-radius: .3em;
+	border-radius: .3em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	
+	border: solid 1px #980c10;
+	background-color: #B30063;
+	background: -webkit-gradient(linear, left top, left bottom, from(#B30063), to(#C70470));
+
+	padding: 0px 4px 0px 4px;
+	padding-bottom: 4px;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.button:hover {
+	background-color: #9C0558;
+	background: -webkit-gradient(linear, left top, left bottom, from(#9C0558), to(#B30063));
+}
+
+.button:active {
+	color: #FFBAE0;
+	position: relative;
+	top: 1px;
+}
+
+/* Horizontal line */
+
+hr {
+	background-color:#DDDDDD;
+	border-width:0;
+	color:#DDDDDD;
+	height:1px;
+	width:90%;
+	margin: auto;
+	margin-top: 32px;
+}
+
+
+/* main box container */
+.box {
+	position: relative;
+
+	margin-top: 32px;
+	text-align: justify;
+	
+	font-size: 1.2em;
+	text-align: center;
+	font-family: 'Patrick Hand', cursive;
+	color: #333333;
+}
+
+.box-title {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+/* Header */
+header {
+	position: relative;
+	font-family: 'Patrick Hand SC', cursive;
+	color: #FFFFFF;
+	font-size: 8em;
+	background-color: #B40063;
+	text-align: center;
+	font-weight: normal;
+}
+
+#header-title {
+	padding: 32px;
+}
+
+/* Nav bar */
+nav {
+	position: relative;
+	font-family: 'Patrick Hand SC', cursive;
+	color: #006571;
+	background-color: #006571;
+	width: 100%;
+	height: 48px;
+	font-size: 200%;
+}
+
+#nav-link-container {
+	margin: auto;
+	width: 60%;
+}
+
+.nav-link {
+	position: relative;
+	width: 25%;
+	margin: auto;
+	display:inline;
+	float: left;
+	height: 100%;
+	text-align: center;
+}
+
+main {
+	position: relative;
+	width: 960px;
+	margin: auto;
+}
+
+/* about - logo */
+.logo {
+	width: 33%;
+}
+
+/* Maths - thumbnail */
+
+.question-thumbnail {
+	width: 30%;
+	display: inline;
+	float: left;
+	margin: 1.1%;
+}
+
+#question-thumbnail-label {
+	font-size: 1.2em;
+	float: right;
+	color: #333333;
+}
+
+/* Maths question - question sizing */
+
+.math-question {
+	width: 48%;
+	display: inline;
+	float: left;
+	margin: 1%;
+	font-size: 1.2em;
+}
+
+.question-title {
+	font-size: 1em;
+	font-weight: bold;
+	color: #333333;
+	text-align: left;
+}
+
+.question-hint {
+	cursor: pointer;
+	color: #006571;
+}
+
+.question-solution {
+	cursor: pointer;
+	color: #B40063;
+}
+.question-answer {
+	width: 55%;
+	font-size: 1em;
+}
+
+#score {
+	color: #B40063;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+/* footer */
+
+.email {
+	color: #006571;
+}
+
+footer {
+	position: absolute; /* this needs some fixing! */
+	background-color: #006571;
+	width: 100%;
+	height: 60px;
+	margin-top: 0px;
+}
+
+#footer-contact-info {
+	color: #FFFFFF;
+	font-size: 1.1em;
+	padding: 16px;
+}
+
+
+/* custom highlight colour */
+::selection {
+	color: #FFFFFF;
+	background: #B40063;
+}
+::-moz-selection {
+	color: #FFFFFF;
+	background: #B40063;
+}
+
+
+/* Responsive sizing */
+
+@media all and (max-width: 960px){
+	header {
+		font-size: 6em;
+	}
+	main {
+		width: 100%;
+	}
+	.question {
+		width: 48%;
+		margin: 1%;
+	}
+
+}
+
+@media all and (max-width: 600px){
+	header {
+		font-size: 5em;
+	}
+	#header-title {
+		padding: 16px;
+	}
+	#nav-link-container {
+		width: 100%;
+	}
+	.math-question {
+		width: 100%;
+	}
+	.logo {
+		width: 100%;
+	}
+	.question-thumbnail {
+		width: 45%;
+		margin: 2.5%;
+	}
+}
+
+@media all and (max-width: 480px){
+	header {
+		font-size: 3em;
+	}
+	nav {
+		height: 96px;
+	}
+	.nav-link {
+		width: 50%;
+		height: 50%;
+	}
+	img {
+		min-width: 200px;
+		width: 100%;
+	}
+	.question {
+		width: 100%;
+		margin: 0%;
+	}
+	.math-question {
+		margin: 0px;
+	}
+	.question-thumbnail {
+		width: 100%;
+		margin: 0%;
+	}
+}
+
+/*
+	Crop images so they are all the same size
+*/
+
+/*
+ colours:
+	light blue - #D2E1FA
+	dark blue - #006571
+	pink - #B40063
+
+*/

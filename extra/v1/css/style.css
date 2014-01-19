@@ -1,0 +1,306 @@
+@import url(http://fonts.googleapis.com/css?family=Patrick+Hand|Patrick+Hand+SC|Roboto);
+
+body {
+    margin : 0px;
+	font-family: 'Patrick Hand', cursive;
+}
+
+a {
+	text-decoration:none;
+	color: #FFFFFF;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a:active {
+	color: #B40063;
+}
+
+.button {
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 1.2em;
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	padding: 0.3em 1em 0.5em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .3em; 
+	-moz-border-radius: .3em;
+	border-radius: .3em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	
+	border: solid 1px #980c10;
+	background-color: #B30063;
+	background: -webkit-gradient(linear, left top, left bottom, from(#B30063), to(#C70470));
+}
+
+.question-button {
+	padding: 2px 4px 2px 4px;
+}
+
+.content-box {
+	position: relative;
+	width: 800px;
+	margin: auto;
+	height: 100%;
+}
+
+#container {
+	position: relative;
+	width: 960px;
+	margin: auto;
+}
+
+.button:hover {
+	background-color: #9C0558;
+	background: -webkit-gradient(linear, left top, left bottom, from(#9C0558), to(#B30063));
+	text-decoration: none;
+}
+
+.button:active {
+	color: #FFBAE0;
+	position: relative;
+	top: 1px;
+}
+
+.box {
+	position: relative;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-top: 4%;
+	text-align: justify;
+	
+	font-size: 1.2em;
+	text-align: center;
+	font-family: 'Patrick Hand', cursive;
+	color: #333333;
+}
+
+#header {
+	position: relative;
+	font-family: 'Patrick Hand SC', cursive;
+	color: #FFFFFF;
+	font-size: 8em;
+	background-color: #B40063;
+	text-align: center;
+	font-weight: normal;
+}
+
+#header-title {
+	padding: 32px;
+}
+
+#nav {
+	position: relative;
+	font-family: 'Patrick Hand SC', cursive;
+	color: #006571;
+	background-color: #006571;
+	width: 100%;
+	height: 48px;
+	font-size: 200%;
+}
+
+#link-container {
+	margin: auto;
+	width: 60%;
+}
+
+.nav-link {
+	position: relative;
+	width: 25%;
+	margin: auto;
+	display:inline;
+	float: left;
+	height: 100%;
+	text-align: center;
+}
+
+#box-title {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+hr {
+	background-color:#DDDDDD;
+	border-width:0;
+	color:#DDDDDD;
+	height:1px;
+	width:90%;
+	margin: auto;
+	margin-top: 2%;
+}
+
+#map-larger-button {
+	width: 180px;
+}
+
+.button-container {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	margin: auto;
+}
+
+#get-started-button {
+	width: 180px;
+}
+
+#bath-front-page {
+	width: 100%;
+}
+
+.question-img {
+	width: 100%;
+}
+
+.question {
+	width: 30%;
+	display: inline;
+	float: left;
+	margin: 1.1%;
+}
+
+.m-question {
+	width: 48%;
+	display: inline;
+	float: left;
+	margin: 1%;
+}
+
+#question-sub-title {
+	font-size: 1.2em;
+	float: right;
+	color: #333333;
+}
+
+#question-title {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #333333;
+	text-align: left;
+	
+}
+
+#question-hint {
+	display: none;
+	font-weight: normal;
+	font-size: 1em;
+	font-style:italic;
+}
+#question-answer-container {
+	display: inline;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+#question-answer {
+	width: 55%;
+	font-size: 1em;
+}
+
+#feedback-email {
+	color: #006571;
+}
+
+#translation-email {
+	color: #006571;
+}
+
+#own-maths-walk-email {
+	color: #006571;
+}
+
+#footer {
+	position: absolute; /* this needs some fixing! */
+	background-color: #006571;
+	width: 100%;
+	height: 60px;
+	margin-top: 0px;
+}
+
+#footer-contact-info {
+	color: #FFFFFF;
+	font-size: 1.1em;
+	padding: 16px;
+}
+	height: 100%;
+}
+
+::selection {
+	background: #B40063; /* Safari */
+	color: #FFFFFF;
+}
+
+::-moz-selection {
+	background: #B40063; /* Firefox */
+	color: #FFFFFF;
+}
+
+@media all and (max-width: 960px){
+	#header {
+		font-size: 6em;
+	}
+	#container {
+		width: 100%;
+	}
+	.question {
+		width: 48%;
+		margin: 1%;
+	}
+
+}
+
+@media all and (max-width: 600px){
+	#header {
+		font-size: 5em;
+	}
+	#header-title {
+		padding: 16px;
+	}
+	#link-container {
+		width: 100%;
+	}
+	.m-question {
+		width: 100%;
+	}
+	
+}
+
+@media all and (max-width: 480px){
+	#header {
+		font-size: 3em;
+	}
+	#nav {
+		height: 96px;
+	}
+	
+	.nav-link {
+		width: 50%;
+		height: 50%;
+	}
+	img {
+		width: 100%;
+	}
+	.question {
+		width: 100%;
+		margin: 0%;
+	}
+}
+
+/*
+	Crop images so they are all the same size
+*/
+
+/*
+Nice colours:
+	light blue - #D2E1FA
+	dark blue - #006571
+	pink - #B40063
+
+*/
